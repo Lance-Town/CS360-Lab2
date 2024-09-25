@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css">
+        <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"> -->
+
+        <title>Photos - CS360 Lab 2</title>
+    </head>
+
+    <body class="bg-dark text-white d-flex">
+        <div class="container-fluid">
+            <div class="card-columns">
+                <div class="card bg-dark pt-3">
+                    <button class="w-100" type="button" style="border: none; background-color: inherit;" data-bs-toggle="modal" data-bs-target="#myModal" onclick="updateModal('idaho1.jfif')">
+                        <img src="idaho1.jfif" class="w-100">
+                    </button>
+                </div>
+
+                <div class="card  bg-dark pt-3">
+                    <button class="w-100" type="button" style="border: none; background-color: inherit;" data-bs-toggle="modal" data-bs-target="#myModal" onclick="updateModal('idaho2.jfif')">
+                        <img src="idaho2.jfif" class="w-100">
+                    </button>
+                </div>
+
+                <div class="card bg-dark pt-3">
+                    <button class="w-100" type="button" style="border: none; background-color: inherit;" data-bs-toggle="modal" data-bs-target="#myModal" onclick="updateModal('idaho3.jfif')">
+                        <img src="idaho3.jfif" class="w-100">
+                    </button>
+                </div>
+
+                <div class="card bg-dark pt-3">
+
+                    <button class="w-100" type="button" style="border: none; background-color: inherit;" data-bs-toggle="modal" data-bs-target="#myModal" onclick="updateModal('idaho4.jfif')">
+                        <img src="idaho4.jfif" class="w-100">
+                    </button>
+                </div>
+
+                <div class="card bg-dark pt-3">
+                    <button class="w-100" type="button" style="border: none; background-color: inherit;" data-bs-toggle="modal" data-bs-target="#myModal" onclick="updateModal('idaho5.jfif')">
+                        <img src="idaho5.jfif" class="w-100">
+                    </button>
+                </div>
+
+                <div class="card bg-dark pt-3">
+                    <button class="w-100" type="button" style="border: none; background-color: inherit;" data-bs-toggle="modal" data-bs-target="#myModal" onclick="updateModal('idaho6.jfif')">
+                        <img src="idaho6.jfif" class="w-100">
+                    </button>
+                </div>
+
+                <div class="card bg-dark pt-3">
+                    <button class="w-100" type="button" style="border: none; background-color: inherit;" data-bs-toggle="modal" data-bs-target="#myModal" onclick="updateModal('idaho7.jfif')">
+                        <img src="idaho7.jfif" class="w-100">
+                    </button>
+                </div>
+
+                <div class="card bg-dark pt-3">
+                    <button class="w-100" type="button" style="border: none; background-color: inherit;" data-bs-toggle="modal" data-bs-target="#myModal" onclick="updateModal('idaho8.jfif')">
+                        <img src="idaho8.jfif" class="w-100">
+                    </button>
+                </div>
+
+                <div class="card bg-dark pt-3">
+                    <button class="w-100" type="button" style="border: none; background-color: inherit;" data-bs-toggle="modal" data-bs-target="#myModal" onclick="updateModal('idaho9.jfif')">
+                        <img src="idaho9.jfif" class="w-100">
+                    </button>
+                </div>
+
+                <div class="card bg-dark pt-3">
+                    <button class="w-100" type="button" style="border: none; background-color: inherit;" data-bs-toggle="modal" data-bs-target="#myModal" onclick="updateModal('idaho10.jfif')">
+                        <img src="idaho10.jfif" class="w-100">
+                    </button>
+                </div>
+
+                <div class="card bg-dark pt-3">
+                    <button class="w-100" type="button" style="border: none; background-color: inherit;" data-bs-toggle="modal" data-bs-target="#myModal" onclick="updateModal('idaho11.jfif')">
+                        <img src="idaho11.jfif" class="w-100">
+                    </button>
+                </div>
+
+                <div class="card bg-dark pt-3">
+                    <button class="w-100" type="button" style="border: none; background-color: inherit;" data-bs-toggle="modal" data-bs-target="#myModal" onclick="updateModal('idaho12.jfif')">
+                        <img src="idaho12.jfif" class="w-100">
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="container w-25 p-4 d-flex flex-column align-items-end">
+            <h4 class="mb-4">SHUTTER</h4>
+
+            <nav class="nav flex-column mb-3">
+                <a href="index.html" class="text-white">HOME</a>
+                <a href="photos.html" class="text-danger pt-1">PHOTOS</a>
+                <a href="bio.html" class="text-white pt-1">BIO</a>
+                <a href="blog.html" class="text-white pt-1">BLOG</a>
+                <a href="contact.html" class="text-white pt-1">CONTACT</a>
+            </nav>
+
+            <div class="flex">
+                <a href="instagram.com"><img src="instagram.svg"></a>
+                <a href="facebook.com"><img src="facebook.svg"></a>
+                <a href="twitter.com"><img src="twitter.svg"></a>
+            </div>
+        </div>
+
+        <div id="myModal" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+                <div class="modal-header">
+                    <h1>
+                        Image
+                    </h1>
+                </div>
+                <div class="modal-content">
+                    <div class="modal-body" id="modalImage">
+                        <img src="idaho1.jfif">
+                    </div>
+                </div>
+
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+
+        <script src="script.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>
